@@ -1,0 +1,78 @@
+
+.navbar_container{
+  
+}
+
+.navbar_content{
+ display: flex;
+ justify-content: space-around;
+}
+
+.navbar_input{
+    border: 0.75px solid #B2C5D0;
+    border-radius: 100px;
+    width: 442px;
+    height: 38px;
+    margin-top: 20px;
+    margin-left: 24px;
+}
+
+.navbar_icon{
+ width: 83px;
+ height: 51px;
+ margin-top: 15px;
+ margin-left: 58px;
+}
+
+.navbar_notify{
+ width: 40px;
+ height: 40px;
+ align-self: center;
+}
+
+.navbar_content >h5{
+font-family: Nunito Sans;
+font-size: 18px;
+font-weight: 600;
+line-height: 25px;
+text-align: center;
+color: #0F1D40;
+}
+
+.navbar_micondiv{
+    display: flex;
+    border: 1px solid #0D99FF;
+    border-radius: 40px;
+    width: 184px;
+    height: 60px;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.navbar_micon{
+    height: 20px;
+    width: 20px;
+    align-self: center;
+
+}
+.navbar_micontext{
+font-family: SF Pro Display;
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 0em;
+position: relative;
+bottom: 15px;
+}
+
+.navbar_mainnet{
+font-family: SF Pro Display;
+font-size: 14px;
+font-weight: 400;
+line-height: 23px;
+letter-spacing: 0em;
+text-align: center;
+border: 1px solid #0D99FF;
+border-radius: 20px;
+width: 96px;
+}
+

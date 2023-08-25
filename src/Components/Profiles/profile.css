@@ -1,0 +1,136 @@
+.about_container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 2.5rem; 
+}
+
+.about_item_text{
+    border: 1px solid #A9A9A9;
+    height: 160px;
+
+}
+
+.about_item_footer{
+    border: 1px solid #A9A9A9;
+    text-align: left;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.about_item_image{
+    border: 1px solid #A9A9A9;
+    padding-top: 10px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.about_title{
+font-family: SF Pro Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 21px;
+letter-spacing: 0.28285714983940125px;
+width: 130px;
+border-radius: 6px;
+background: #0D99FF33;
+
+}
+
+.about_page{
+    font-family: SF Pro Display;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.28285714983940125px;
+    width: 57px;
+border-radius: 6px;
+background: #1C1B1C0F;
+margin-top: 21.28px;
+}
+
+.about_Btext{
+font-family: SF Pro Display;
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0.28285714983940125px;
+text-align: left;
+
+}
+
+.about_text{
+font-family: SF Pro Display;
+font-size: 14px;
+font-weight: 400;
+line-height: 22px;
+letter-spacing: 0em;
+text-align: left;
+ color: #6C757D;
+}
+
+.about_name{
+font-family: SF Pro Display;
+font-size: 14px;
+font-weight: 500;
+letter-spacing: 0em;
+text-align: left;
+color: #0D99FF;
+margin: 0px;
+}
+
+.about_pricetext{
+    font-family: SF Pro Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 18px;
+letter-spacing: 0.28285714983940125px;
+text-align: left;
+color:  #1C1B1C80;
+;
+}
+
+.about_price{
+font-family: SF Pro Display;
+font-size: 15px;
+font-weight: 600;
+line-height: 18px;
+letter-spacing: 0.28285714983940125px;
+text-align: left;
+color: #00A3FF;
+;
+}
+
+.about_priceA{
+font-family: SF Pro Display;
+font-size: 12px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0em;
+background: #AADBFF66;
+position: absolute;
+left: 200px;
+bottom: 4px;
+}
+
+.about_priceS{
+font-family: SF Pro Display;
+font-size: 12px;
+font-weight: 500;
+line-height: 19px;
+letter-spacing: 0em;
+position: absolute;
+left: 200px;
+bottom: 4px;
+border: 1px solid #0D99FF;
+padding-left: 20px;
+padding-right: 20px;
+color: #0D99FF;
+}
+
+.aboutIcon{
+ position: absolute;
+ top: 300px;
+ left: 250px;
+
+
+}

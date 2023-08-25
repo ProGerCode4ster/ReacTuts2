@@ -1,0 +1,146 @@
+.feeds{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 8px;
+    border: 1px solid  #D8DBEA;
+    margin-top: 5%;
+    
+}
+
+.feeds > img{
+    width: 63px;
+    height: 60px;
+    padding: 7.014705181121826px 13.25px 7.014705181121826px 13.25px;
+}
+
+.feeds >h4 {
+
+padding: 7.014705181121826px 13.25px 7.014705181121826px 13.25px;
+border-radius: 6.029412269592285px;
+font-family: SF Pro Display;
+font-size: 14px;
+font-weight: 400;
+line-height: 16px;
+letter-spacing: 0.02em;
+text-align: left;
+border: 2px solid #0D99FF;
+background: #0D99FF4D;
+
+
+}
+
+.feeds > h2{
+font-family: SF Pro Display;
+font-size: 20px;
+font-weight: 700;
+line-height: 30px;
+letter-spacing: 0.3589743673801422px;
+text-align: left;
+color: #0D99FF;
+}
+
+.feeds > h5{
+    font-family: SF Pro Display;
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color:#747C90;
+}
+
+.creator_black{
+    color: black;
+}
+
+.creator_popular{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    gap: 2rem;
+    margin-bottom: 10%;
+}
+
+.creator_almichael{
+ display: flex;
+ border: 1px solid #D8DBEA;
+ margin-left: 10px;
+ margin-left: 10px;
+ border-radius: 8px;
+ justify-content: space-around;
+}
+ 
+
+.creator_oxdak{
+    display: flex;
+    border: 1px solid #D8DBEA;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+.creator_ok19{
+    display: flex;
+    border: 1px solid #D8DBEA;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+
+.creator_sean{
+    display: flex;
+    border: 1px solid #D8DBEA;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+
+.creator_ken{
+    display: flex;
+    border: 1px solid #D8DBEA;
+    margin-left: 10px;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+.creator_code{
+    display: flex;
+    border: 1px solid #D8DBEA;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+.creator_m6sd{
+    display: flex;
+    border: 1px solid #D8DBEA;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+
+.creator_d2se{
+    display: flex;
+    border: 1px solid #D8DBEA;
+    border-radius: 8px;
+    justify-content: space-around;
+}
+.creator_image{
+ width: 71px;
+ height: 70px;
+ position: relative;
+ top: 20px;
+ 
+}
+
+.creator_blue{
+    color: #0D99FF;
+    position: relative;
+    right: 50px;
+}
+
+.creator_blue >p{
+    color: black;
+}
+
+.creator_popular_text{
+    text-align: left;
+    margin-left: 10px;
+    font-family: SF Pro Display;
+font-size: 48px;
+font-weight: 500;
+line-height: 36px;
+letter-spacing: 0em;
+text-align: left;
+
+}

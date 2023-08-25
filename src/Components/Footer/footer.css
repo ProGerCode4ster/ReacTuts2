@@ -1,0 +1,62 @@
+.footer_container{
+    
+}
+
+.footer_content{
+    background: #0D99FF;
+    margin-top: 10%;
+}
+
+.footer_genadrop{
+ position: relative;
+ right: 530px;
+ padding-top: 50px;
+}
+
+.footer_privacy{
+    text-align: start;
+    font-family: SF Pro Display;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0em;
+text-align: left;
+margin-top: 5%;
+color: white;
+margin-left: 5%;
+border-top: 1px solid white;
+
+}
+
+.footer_pinata{
+    margin-left: 5%;
+}
+
+.footer_twitter{
+    position: relative;
+    right: 490px;
+    margin-top: 50px;
+    
+}
+
+.footer_love{
+ position: relative;
+ left: 100px;
+}
+
+.footer_support{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    position: absolute;
+    left: 900px;
+    top: 4250px;
+    column-gap: 30px;
+    color: white;
+    font-family: SF Pro Display;
+font-weight: 400;
+
+letter-spacing: 0em;
+text-align: left;
+
+
+}
