@@ -8,18 +8,12 @@ import Love from '../images/Built with ♥️ by the Minority Programmers Associ
 const footer = () => {
   return (
    <section id='footer'>
+  
     <div className=' footer_container'>
      <div className="footer_content">
        <div className="footer_genadrop">
         <img src={Drop} alt=""/>
-       </div>
-        
-       <div className="footer_twitter">
-        <img src={Twitter} alt="" />  
-       </div >
-
-
-       <div className='footer_support'>
+        <div className='footer_support'>
         <h3>
           Tools
         </h3>
@@ -66,6 +60,14 @@ const footer = () => {
 
 
       </div>
+       </div>
+        
+       <div className="footer_twitter">
+        <img src={Twitter} alt="" />  
+       </div >
+
+
+      
 
 
 

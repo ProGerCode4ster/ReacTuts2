@@ -11,12 +11,8 @@ import Duck from '../images/img (2).png'
 import Cow from '../images/1-kid-school-monsoon-environment-photography-by-anindya-phani 1 (2).png'
 import Color from'../images/1-kid-school-monsoon-environment-photography-by-anindya-phani 1 (3).png'
 import Face from'../images/1-kid-school-monsoon-environment-photography-by-anindya-phani 1 (4).png'
-import Arrow from '../images/CaretCircleLeft.png'
 import Micon from '../images/image 169.png'
 import './profile.css'
-
-import{Pagination, Navigation, Scrollbar, A11y} from 'swiper/modules'
-import{Swiper , SwiperSlide} from 'swiper/react'
 
 import 'swiper/css'
 import 'swiper/css/pagination'
@@ -32,6 +28,7 @@ export const profile = () => {
  pricetext:'Floor Price',
  price:'22 ALGO(9.75 USD)',
  priceA:'1,753 NFTs',
+ priceS:'Buy',
  text:'Atari AlphaVerse is a metaverse, part of the AlphaVerse, offering whole experience it’s ... ' 
 },
 
@@ -73,12 +70,12 @@ export const profile = () => {
     image : Skullboi,
     id: 4,
     icon : Micon,
-    page: '1 of 1',
+    page: 'Skull Boi',
     pricetext:' Price',
     price:'2 ALGO(9.75 USD)',
     priceS:'Buy',
     Btext:'#21 Skull Boi',
-    name:'Karisma.algo'
+    name:'Oxa4....klo8'
 
 },
 
@@ -86,7 +83,7 @@ export const profile = () => {
     image : Skull,
     id: 4,
     icon : Micon,
-    page: '1 of 1',
+    page: 'Near Normad',
     pricetext:' Price',
     price:'2 ALGO(9.75 USD)',
     priceS:'Buy',
@@ -99,7 +96,7 @@ export const profile = () => {
     image : Blood,
     id: 4,
     icon : Micon,
-    page: '1 of 1',
+    page: 'Bloody face',
     pricetext:' Price',
     price:'2 ALGO(9.75 USD)',
     priceS:'Buy',
@@ -117,15 +114,15 @@ export const profile = () => {
     price:'2 ALGO(9.75 USD)',
     priceS:'Buy',
     Btext:'Genery Wall',
-    name:'Karisma.algo'
-
+    name:'0dka.....Dfjk1'
+    
 },
 
 {
     image : Duck,
     id: 4,
     icon : Micon,
-    page: '1 of 1',
+    page: 'Platty NFT Shuffle',
     pricetext:' Price',
     price:'2 ALGO(9.75 USD)',
     priceS:'Buy',
@@ -180,45 +177,47 @@ export const profile = () => {
 ];
 
  return (
-    <section id="about">
+    <section id="profile">
     
     
-    <div className='container about_container'>
+    <div className='container profile_container'>
    
 
      {aboutContent.map((content,id) => {
         return(
           <article key ={id} className='about_item'>
-            <div className='about_item_image'>
+            <div className='profile_item_image'>
             
-            <img src={ content.image} alt="none" className='aboutImage'/>
+            <img src={ content.image} alt="none" className='profileImage'/>
             
             </div>
             
-            <div className='about_item_text'>
-           
-            <h4 className='about_title'>{content.title}</h4>
-            <h6 className='about_page'>{content.page}</h6>
-            <img src={ content.icon} alt="none" className='aboutIcon'/>
-          
-            <h5 className='about_Btext'>{content.Btext}</h5>
-            <h5 className='about_name'>{content.name}</h5>
-            <h5 className='about_text'>{content.text}</h5>
+            <div className='profile_item_text'>
+           <div className='profile_top'>
+            <h4 className='profile_title'>{content.title}</h4>
+            <h6 className='profile_page'>{content.page}</h6>
+            <img src={ content.icon} alt="none" className='profileIcon'/>
+          </div>
+            <h5 className='profile_Btext'>{content.Btext}</h5>
+            <h5 className='profile_name'>{content.name}</h5>
+            <h5 className='profile_text'>{content.text}</h5>
            
           
             
             </div>
 
 
-            <div className="about_item_footer">
+            <div className="profile_item_footer">
             
-            <h4 className='about_pricetext'>{content.pricetext}</h4>
-            <h4 className='about_price'>{content.price}</h4>
-            <h4 className='about_priceA'>{content.priceA}</h4>
-            <h4 className='about_priceS'>{content.priceS}</h4>
+            <h4 className='profile_pricetext'>{content.pricetext}</h4>
+            <h4 className='profile_price'><h4>{content.price}</h4> <h4 className='profile_priceS'>{content.priceS}</h4>    <h4 className='profile_priceA'>{content.priceA}</h4></h4>
+         
+
+           
             
             
             </div>
+         
 
           </article>
 
@@ -228,6 +227,8 @@ export const profile = () => {
      )
     }
     </div>
+
+  <h3 className='profile_see'>See More</h3>
     </section>
   )
 }

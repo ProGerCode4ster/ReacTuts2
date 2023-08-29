@@ -1,6 +1,8 @@
 .about_item_text{
     border: 1px solid #A9A9A9;
     height: 160px;
+    padding-left: 10px;
+    padding-bottom: 0%;
 }
 
 .about_item_footer{
@@ -8,6 +10,7 @@
     text-align: left;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    padding-left: 10px;
 }
 
 .about_item_image{
@@ -15,6 +18,7 @@
     padding-top: 10px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    
 }
 
 .about_title{
@@ -48,7 +52,7 @@ font-weight: 600;
 line-height: 23px;
 letter-spacing: 0.28285714983940125px;
 text-align: left;
-
+margin: 0px 0px;
 }
 
 .about_text{
@@ -103,6 +107,9 @@ background: #AADBFF66;
 position: absolute;
 left: 230px;
 bottom: 4px;
+border: 2px solid #AADBFF66;
+border-radius: 4px;
+padding: 10px;
 }
 
 .about_priceS{
@@ -114,10 +121,13 @@ letter-spacing: 0em;
 position: absolute;
 left: 230px;
 bottom: 4px;
-border: 1px solid #0D99FF;
-padding-left: 20px;
-padding-right: 20px;
+border: 1px solid #AADBFF66;
+padding-left: 40px;
+padding-right: 30px;
+padding-top: 5px;
+padding-bottom: 5px;
 color: #0D99FF;
+border-radius: 4px;
 }
 
 .aboutIcon{
@@ -126,4 +136,14 @@ color: #0D99FF;
  left: 250px;
 
 
+}
+
+.about_arrowleft{
+ position: absolute;
+top: 10px;
+}
+
+
+@media  screen and (max-container:1024px) {
+    
 }

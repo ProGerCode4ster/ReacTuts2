@@ -127,6 +127,8 @@ color: #0D99FF;
     color: #0D99FF;
     position: relative;
     right: 50px;
+    text-align: left;
+
 }
 
 .creator_blue >p{
@@ -143,4 +145,25 @@ line-height: 36px;
 letter-spacing: 0em;
 text-align: left;
 
+}
+
+
+
+@media screen and (max-width:1456px){
+    .creator_blue{
+        position: relative;
+        right: 15px;
+    }
+}
+
+@media screen and (max-width:1024px){
+    .creator_popular{
+        grid-template-columns: auto auto;
+      }
+}
+
+@media screen and (max-width:600px){
+  .creator_popular{
+    grid-template-columns: auto ;
+  }
 }

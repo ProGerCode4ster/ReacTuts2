@@ -5,6 +5,7 @@ import Creator from './Components/Creators/creator';
 import Footer from './Components/Footer/footer';
 import Service from './Components/Services/service';
 import Profile from './Components/Profiles/profile';
+import Test from './Components/Test/test';
 import './App.css';
 
 function App() {
@@ -18,7 +19,7 @@ function App() {
     <Service/>
     <Profile/>
     <Footer/>
-  
+    <Test/>
       </div>
   );
 }

@@ -1,30 +1,32 @@
-.about_container{
+.profile_container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     gap: 2.5rem; 
+    margin-left: 10px;
 }
 
-.about_item_text{
+.profile_item_text{
     border: 1px solid #A9A9A9;
     height: 160px;
-
+    padding-left:  5%;
 }
 
-.about_item_footer{
+.profile_item_footer{
     border: 1px solid #A9A9A9;
-    text-align: left;
+ 
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    padding-left:  5%;
 }
 
-.about_item_image{
+.profile_item_image{
     border: 1px solid #A9A9A9;
     padding-top: 10px;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
 }
 
-.about_title{
+.profile_title{
 font-family: SF Pro Display;
 font-size: 16px;
 font-weight: 400;
@@ -33,32 +35,37 @@ letter-spacing: 0.28285714983940125px;
 width: 130px;
 border-radius: 6px;
 background: #0D99FF33;
-
+margin:10px 0px 0px 0px;
+display:flex;
+justify-content: center;
 }
 
-.about_page{
+.profile_page{
     font-family: SF Pro Display;
     font-size: 16px;
     font-weight: 400;
     line-height: 21px;
     letter-spacing: 0.28285714983940125px;
-    width: 57px;
+    width: max-content;
 border-radius: 6px;
 background: #1C1B1C0F;
-margin-top: 21.28px;
+padding: 5px;
+
+margin: 0px 0px;
+
 }
 
-.about_Btext{
+.profile_Btext{
 font-family: SF Pro Display;
 font-size: 20px;
 font-weight: 600;
 line-height: 23px;
 letter-spacing: 0.28285714983940125px;
 text-align: left;
-
+margin-bottom: 2px;
 }
 
-.about_text{
+.profile_text{
 font-family: SF Pro Display;
 font-size: 14px;
 font-weight: 400;
@@ -68,17 +75,17 @@ text-align: left;
  color: #6C757D;
 }
 
-.about_name{
+.profile_name{
 font-family: SF Pro Display;
 font-size: 14px;
 font-weight: 500;
 letter-spacing: 0em;
 text-align: left;
 color: #0D99FF;
-margin: 0px;
+margin-top: 5px;
 }
 
-.about_pricetext{
+.profile_pricetext{
     font-family: SF Pro Display;
 font-size: 16px;
 font-weight: 400;
@@ -89,7 +96,7 @@ color:  #1C1B1C80;
 ;
 }
 
-.about_price{
+.profile_price{
 font-family: SF Pro Display;
 font-size: 15px;
 font-weight: 600;
@@ -97,40 +104,73 @@ line-height: 18px;
 letter-spacing: 0.28285714983940125px;
 text-align: left;
 color: #00A3FF;
-;
+display: grid;
+grid-template-columns: auto auto auto;
 }
 
-.about_priceA{
+.profile_priceA{
 font-family: SF Pro Display;
 font-size: 12px;
 font-weight: 700;
 line-height: 19px;
 letter-spacing: 0em;
 background: #AADBFF66;
-position: absolute;
-left: 200px;
-bottom: 4px;
 }
 
-.about_priceS{
+.profile_priceS{
 font-family: SF Pro Display;
 font-size: 12px;
 font-weight: 500;
 line-height: 19px;
 letter-spacing: 0em;
-position: absolute;
-left: 200px;
-bottom: 4px;
 border: 1px solid #0D99FF;
-padding-left: 20px;
-padding-right: 20px;
+
 color: #0D99FF;
-}
-
-.aboutIcon{
- position: absolute;
- top: 300px;
- left: 250px;
-
 
 }
+
+.profileIcon{
+margin-left: 250px;
+padding-bottom: 1px;
+ position: relative;
+ bottom: 30px;
+}
+
+.profile_see{
+    margin-top: 5%;
+    color: #0D99FF;
+    border: 1px solid #0D99FF;
+   width: 203px;
+ 
+ margin-left: 42%;
+ font-family: SF Pro Display;
+font-size: 20px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+
+padding: 1%;
+border-radius: 12px;
+}
+
+@media screen and (max-width:1024px){
+    .profile_container{
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+    .profile_see{
+        margin-left: 39%;
+    }
+}
+
+@media screen and (max-width:600px){
+    .profile_container{
+        grid-template-columns: 1fr ;
+        gap: 1rem;
+    }
+
+    .profile_see{
+        margin-left: 30%;
+    }
+}
+

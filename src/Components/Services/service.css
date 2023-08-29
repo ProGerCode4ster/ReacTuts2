@@ -22,3 +22,25 @@
     padding: 10px;
     border-radius: 29px;
 }
+
+@media screen  and (max-width: 800px){
+    .service_chains > h3{
+        font-size: medium;
+    }
+
+    .service_chains_icon{
+        width: 23%;
+        height: 30%;
+    }
+
+}
+
+@media screen  and (max-width: 600px){
+    .service_chains > h3{
+        font-size: small;
+    }
+    .service_chains_icon{
+        width: 20%;
+        height: 50%;
+    }
+}

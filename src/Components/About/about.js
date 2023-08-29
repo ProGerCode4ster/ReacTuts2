@@ -3,8 +3,11 @@ import Hindi from '../images/Hindi.png'
 import Industry from '../images/Rectangle 2.png'
 import Paper from '../images/1-kid-school-monsoon-environment-photography-by-anindya-phani 1 (1).png'
 import School from '../images/1-kid-school-monsoon-environment-photography-by-anindya-phani 1.png'
-import Arrow from '../images/CaretCircleLeft.png'
+import Arrowleft from '../images/Group 1410066285.png'
+import Arrowright from '../images/CaretCircleLeft.png'
 import Micon from '../images/image 169.png'
+import { Carousel } from 'react-responsive-carousel';
+
 import './about.css'
 
 import{Pagination, Navigation, Scrollbar, A11y} from 'swiper/modules'
@@ -83,25 +86,28 @@ export const about = () => {
  return (
     <section id="about">
     
-    
     <Swiper className='container about_container'
      modules={[Pagination, Navigation, Scrollbar, A11y]}
      spaceBetween={40}
      slidesPerView={4}
      pagination= {{ clickable: true}}
      >
-
+     
+     <img src={Arrowleft} alt='' className='about_arrowleft'/>
      {aboutContent.map((content,id) => {
         return(
           <SwiperSlide key ={id} className='about_item'>
             <div className='about_item_image'>
             
+          
             <img src={ content.image} alt="none" className='aboutImage'/>
-            
+          
+           
             </div>
             
+            
             <div className='about_item_text'>
-           
+      
             <h4 className='about_title'>{content.title}</h4>
             <h6 className='about_page'>{content.page}</h6>
             <img src={ content.icon} alt="none" className='aboutIcon'/>
@@ -132,7 +138,9 @@ export const about = () => {
      }
      )
     }
+    <img src={Arrowright} alt='' className='about_arrowright'/>
     </Swiper>
+  
     </section>
   )
 }
