@@ -7,15 +7,15 @@ import School from '../images/1-kid-school-monsoon-environment-photography-by-an
 import { Carousel } from 'react-responsive-carousel';
 
 
-const test = () => {
+const Test = () => {
   return (
     <Carousel>
-  <Carousel.Item>
+  {/* <Carousel.Item>
     <image className="" src={Hindi} alt="slide 1" />
   </Carousel.Item>
   <Carousel.Item>
     <image className="" src={Industry} alt="slide 2" />
-  </Carousel.Item>
+  </Carousel.Item> */}
   <div>
     <image className="" src={Paper} alt="slide 3" />
   </div>
@@ -23,4 +23,4 @@ const test = () => {
   )
 }
 
-export default test
+export default Test

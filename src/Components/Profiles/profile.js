@@ -28,7 +28,7 @@ export const profile = () => {
  pricetext:'Floor Price',
  price:'22 ALGO(9.75 USD)',
  priceA:'1,753 NFTs',
- priceS:'Buy',
+priceS:'Buy',
  text:'Atari AlphaVerse is a metaverse, part of the AlphaVerse, offering whole experience it’s ... ' 
 },
 
