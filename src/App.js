@@ -19,7 +19,7 @@ function App() {
     <Service/>
     <Profile/>
     <Footer/>
-    <Test/>
+    
       </div>
   );
 }

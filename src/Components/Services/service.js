@@ -1,13 +1,25 @@
 import React from 'react'
 import './service.css'
-import New from '../images/Group 1410066911.png'
+import New from '../images/Ellipse 2009.png'
 
 import Blockchains from '../images/Blockchains.png'
 
 const service = () => {
   return (
     <section id='service'>
-    <img src={New} alt=""  className='service_new'/>
+
+    <div className='service_line'> 
+    
+    <h1 className='service_new'>New</h1>
+     
+    <h1 className='service_one'>1 of 1s</h1>
+
+    <h1 className='service_collections'>Top Collections</h1>
+    <img src={New} alt="none" className='service_ellipse' />
+    
+    </div>
+
+
     
     <div className='service_chains'>
       <h3>All</h3>

@@ -109,12 +109,21 @@ grid-template-columns: auto auto auto;
 }
 
 .profile_priceA{
-font-family: SF Pro Display;
-font-size: 12px;
-font-weight: 700;
-line-height: 19px;
-letter-spacing: 0em;
-background: #AADBFF66;
+    font-family: SF Pro Display;
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0em;
+    text-align: center;
+    border: 1px solid #AADBFF;
+color: #4B4B5A;
+background-color: #AADBFF;
+
+margin-right: 15px;
+
+padding: 8px 16px 8px 16px;
+border-radius: 4px;
+
+
 }
 
 .profile_priceS{
@@ -124,8 +133,16 @@ font-weight: 500;
 line-height: 19px;
 letter-spacing: 0em;
 border: 1px solid #0D99FF;
-
+background: #AADBFF66;
+text-align: center;
 color: #0D99FF;
+
+
+padding: 6px 20px 6px 20px;
+border-radius: 4px;
+border: 0.7956204414367676px;
+gap: 10px;
+
 
 }
 
@@ -153,6 +170,33 @@ padding: 1%;
 border-radius: 12px;
 }
 
+
+
+
+.profile_topImage{
+    position: absolute;
+    display: inline;
+    margin:  20px;
+    border: 1px solid #0D99FF;
+    padding: 5px;
+    color:white;
+    background-color: 
+    #62BDFF;
+border-radius: 29px;
+    font-family: SF Pro Display;
+font-size: 14px;
+font-weight: 400;
+line-height: 10px;
+letter-spacing: 0em;
+
+}
+
+
+.price_hidden{
+    display: none;
+   }
+
+
 @media screen and (max-width:1024px){
     .profile_container{
         grid-template-columns: 1fr 1fr;
@@ -161,6 +205,11 @@ border-radius: 12px;
     .profile_see{
         margin-left: 39%;
     }
+
+    .profileIcon{
+        margin-right: 60px;
+      
+  }
 }
 
 @media screen and (max-width:600px){
@@ -172,5 +221,9 @@ border-radius: 12px;
     .profile_see{
         margin-left: 30%;
     }
-}
 
+    .profileIcon{
+      margin-left: 410px;
+    
+}
+}

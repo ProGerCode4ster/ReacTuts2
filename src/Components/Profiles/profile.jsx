@@ -26,9 +26,10 @@ export const profile = () => {
  title: 'Ally Cats',
  icon : Micon,
  pricetext:'Floor Price',
+ priceS: null,
  price:'22 ALGO(9.75 USD)',
+ topimage: null,
  priceA:'1,753 NFTs',
-priceS:'Buy',
  text:'Atari AlphaVerse is a metaverse, part of the AlphaVerse, offering whole experience it’s ... ' 
 },
 
@@ -40,6 +41,8 @@ priceS:'Buy',
     pricetext:'Floor Price',
     price:'22 ALGO(9.75 USD)',
     priceA:'1,753 NFTs',
+    topimage: null,
+    priceS: null,
     text:'Atari AlphaVerse is a metaverse, part of the AlphaVerse, offering whole experience it’s ... '
 },
 
@@ -47,13 +50,16 @@ priceS:'Buy',
     
     image : Newschool,
     id: 3,
+    topimage:"Architecture",
     icon : Micon,
     page: '1 of 1',
     pricetext:'Price',
     price:'22 ALGO(9.75 USD)',
     priceS:'Buy',
     Btext:'Building Of the future',
-    name:'Lukas algo'
+    priceA: null,
+    name:'Lukas algo',
+    
 },
 
 {
@@ -64,6 +70,8 @@ priceS:'Buy',
     pricetext:'Floor Price',
     price:'22 ALGO(9.75 USD)',
     priceA:'1,753 NFTs',
+    topimage: null,
+    priceS: null,
     text:'Atari AlphaVerse is a metaverse, part of the AlphaVerse, offering whole experience it’s ... ' 
 },
 {
@@ -75,8 +83,9 @@ priceS:'Buy',
     price:'2 ALGO(9.75 USD)',
     priceS:'Buy',
     Btext:'#21 Skull Boi',
-    name:'Oxa4....klo8'
-
+    topimage: null,
+    name:'Oxa4....klo8',
+    priceA: null,
 },
 
 {
@@ -87,7 +96,9 @@ priceS:'Buy',
     pricetext:' Price',
     price:'2 ALGO(9.75 USD)',
     priceS:'Buy',
+    topimage: null,
     Btext:'#415 Near Normad',
+    priceA: null,
     name:'Lukas.algo'
 
 },
@@ -101,6 +112,8 @@ priceS:'Buy',
     price:'2 ALGO(9.75 USD)',
     priceS:'Buy',
     Btext:'#21 Bloody face',
+    topimage: "Art",
+     priceA: null,
     name:'Lukas.algo'
 
 },
@@ -114,6 +127,8 @@ priceS:'Buy',
     price:'2 ALGO(9.75 USD)',
     priceS:'Buy',
     Btext:'Genery Wall',
+    topimage: "Art",
+    priceA: null,
     name:'0dka.....Dfjk1'
     
 },
@@ -127,6 +142,8 @@ priceS:'Buy',
     price:'2 ALGO(9.75 USD)',
     priceS:'Buy',
     Btext:'#21 Platty NFT Shuffle',
+    priceA: null,
+    topimage: null,
     name:'Lukas.algo'
 
 },
@@ -140,6 +157,8 @@ priceS:'Buy',
     price:'2 ALGO(9.75 USD)',
     priceS:'Buy',
     Btext:'Urban Life',
+    priceA: null,
+    topimage: "Painting",
     name:'Lukas.algo'
 
 },
@@ -153,6 +172,8 @@ priceS:'Buy',
     price:'2 ALGO(9.75 USD)',
     priceS:'Buy',
     Btext:'My Tools',
+    priceA: null,
+    topimage:"Painting",
     name:'Lukas.algo'
 
 },
@@ -166,6 +187,8 @@ priceS:'Buy',
     price:'2 ALGO(9.75 USD)',
     priceS:'Buy',
     Btext:'Through the pains',
+    priceA: null,
+    topimage:"Art",
     name:'Lukas.algo'
 
 },
@@ -187,13 +210,14 @@ priceS:'Buy',
         return(
           <article key ={id} className='about_item'>
             <div className='profile_item_image'>
-            
+                <h4 className={content.topimage ===null ? "price_hidden" : "profile_topImage"}>{content.topimage}</h4>
             <img src={ content.image} alt="none" className='profileImage'/>
-            
+        
             </div>
             
             <div className='profile_item_text'>
            <div className='profile_top'>
+           
             <h4 className='profile_title'>{content.title}</h4>
             <h6 className='profile_page'>{content.page}</h6>
             <img src={ content.icon} alt="none" className='profileIcon'/>
@@ -210,7 +234,10 @@ priceS:'Buy',
             <div className="profile_item_footer">
             
             <h4 className='profile_pricetext'>{content.pricetext}</h4>
-            <h4 className='profile_price'><h4>{content.price}</h4> <h4 className='profile_priceS'>{content.priceS}</h4>    <h4 className='profile_priceA'>{content.priceA}</h4></h4>
+            <h4 className='profile_price'>
+                <h4>{content.price}</h4>
+                 <h4 className={content.priceS ===null ? "price_hidden" : "profile_priceS"}>{content.priceS}</h4>    
+                 <h4 className={content.priceA ===null ? "price_hidden" : "profile_priceA"}>{content.priceA}</h4></h4>
          
 
            
