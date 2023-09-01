@@ -1,8 +1,8 @@
 .profile_container{
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 2.5rem; 
-    margin-left: 10px;
+    gap:1.5rem; 
+  
 }
 
 .profile_item_text{
@@ -118,7 +118,7 @@ grid-template-columns: auto auto auto;
 color: #4B4B5A;
 background-color: #AADBFF;
 
-margin-right: 15px;
+margin-left: 10px;
 
 padding: 8px 16px 8px 16px;
 border-radius: 4px;
@@ -136,13 +136,9 @@ border: 1px solid #0D99FF;
 background: #AADBFF66;
 text-align: center;
 color: #0D99FF;
-
-
 padding: 6px 20px 6px 20px;
 border-radius: 4px;
-border: 0.7956204414367676px;
-gap: 10px;
-
+margin-left: 60px;
 
 }
 

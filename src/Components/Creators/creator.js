@@ -22,7 +22,8 @@ const creator = () => {
        <h2>#215 Minority X H.E.R  <span className='creator_black'>sold   [</span> 0x694c…7489  <span  className='creator_black'>To</span>  Onallee.algo <span  className='creator_black'> ]</span> </h2>
        <h5>3 Minutes ago</h5>
       </div>
-      <h1 className='creator_popular_text'>Popular Creator</h1>
+      <h1 className='creator_popular_text'>Popular Creators <span className='creator_view_text'>View All</span></h1>
+
        <div className="creator_popular">
        <div className='creator_almichael'>
         <img src={Amichael} alt="" className='creator_image'/>

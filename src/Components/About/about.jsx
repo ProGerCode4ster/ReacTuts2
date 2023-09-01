@@ -102,7 +102,7 @@ export const About = () => {
   price:'22 ALGO(9.75 USD)',
   priceS:null,
   priceA:'1,753 NFTs',
-  
+  topimage:null,
   text:'Atari AlphaVerse is a metaverse, part of the AlphaVerse, offering whole experience it’s ... '
 },
 
@@ -133,7 +133,7 @@ const prevSlide = () => {
     
     <Swiper className='container about_container'
      modules={[Pagination, Navigation, Scrollbar, A11y,Virtual]}
-     spaceBetween={40}
+     spaceBetween={30}
      slidesPerView={4}
      pagination= {{ clickable: true}}
      virtual ={true}

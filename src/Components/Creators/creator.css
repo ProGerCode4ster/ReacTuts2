@@ -4,7 +4,7 @@
     border-radius: 8px;
     border: 1px solid  #D8DBEA;
     margin-top: 5%;
-    
+    margin-left: 10px;
 }
 
 .feeds > img{
@@ -143,11 +143,26 @@ font-size: 48px;
 font-weight: 500;
 line-height: 36px;
 letter-spacing: 0em;
-text-align: left;
+display: flex;
+justify-content: space-between;
 
 }
 
-
+.creator_view_text{
+   
+    font-family: SF Pro Display;
+    font-size: 19px;
+    font-weight: 600;
+    line-height: 22px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-right: 10px;
+    border: 1px solid #0D99FF;
+    border-radius: 6px;
+    padding: 6px;
+    color: white;
+    background-color: #0D99FF;
+}
 
 @media screen and (max-width:1456px){
     .creator_blue{

@@ -1,5 +1,6 @@
 
 
+
 .about_item_text{
     border: 1px solid #A9A9A9;
     height: 160px;
@@ -107,11 +108,13 @@ line-height: 19px;
 letter-spacing: 0em;
 background: #AADBFF66;
 position: absolute;
-left: 230px;
+left: 200px;
 bottom: 4px;
 border: 2px solid #AADBFF66;
 border-radius: 4px;
-padding: 10px;
+padding: 1px;
+margin-right: 10px;
+width: 70px;
 }
 
 .about_priceS{
@@ -121,7 +124,7 @@ font-weight: 500;
 line-height: 19px;
 letter-spacing: 0em;
 position: absolute;
-left: 230px;
+left: 184px;
 bottom: 4px;
 border: 1px solid #AADBFF66;
 padding-left: 40px;
@@ -151,12 +154,12 @@ border-radius: 4px;
 
 .about_arrowleft{
     bottom: 309px;
-     right: 659px;
+     right: 589px;
    }
 
 .about_arrowright{
     bottom: 309px;
-    left: 659px;
+    left: 589px;
     }
 
 
